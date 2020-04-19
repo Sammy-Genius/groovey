@@ -26,7 +26,7 @@ body {
     background-size:100%;
     width:100%;
     height:30vh;
-    animation: show 5s ease-in-out infinite;
+    animation: show 10s ease-in-out infinite alternate;
 }
 
 @keyframes show {
@@ -40,8 +40,15 @@ body {
         background-image:url("assets/IMG_2889.JPG");
     }
     60% {
-        background-image:url("assets/IMG_2894.JPG");
+        background-image:url("assets/IMG_2891.JPG");
     }
+    80% {
+        background-image:url("assets/IMG_2314.JPG");
+    }
+    100% {
+        background-image:url("assets/IMG_2318.JPG");
+    }
+    
 }
 
 .box header h1 {
